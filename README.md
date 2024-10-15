@@ -72,6 +72,13 @@ Endpoints include:
 ### Swagger UI API-Docs
 ![cap6](https://github.com/user-attachments/assets/19012c3c-ea03-4771-b38e-43a1e0a79a3c)
 
+### Create User
+![imagen](https://github.com/user-attachments/assets/54ff0e5a-f534-40c5-92f3-301440ad388d)
+
+### Test User
+![imagen](https://github.com/user-attachments/assets/3be7e68d-4627-46a7-b5ff-2927d084c08f)
+
+
 ### Schedule Creation
 ![cap1](https://github.com/user-attachments/assets/0eb5db11-0239-49be-84b3-0065a7271dc3)
 
