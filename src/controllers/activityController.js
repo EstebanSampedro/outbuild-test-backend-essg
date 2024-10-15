@@ -1,6 +1,6 @@
 const Activity = require('../models/Activity');
 const Schedule = require('../models/Schedule');
-const logger = require('../utils/logger'); // Import the logger
+const logger = require('../utils/logger'); 
 
 exports.addActivity = async (req, res, next) => {
   try {

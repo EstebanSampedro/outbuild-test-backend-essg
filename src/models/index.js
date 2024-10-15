@@ -1,15 +1,15 @@
 const { Sequelize } = require('sequelize');
 
+// Initialize Sequelize with the database connection URL and necessary options
 const sequelize = new Sequelize(process.env.DATABASE_URL, {
-  dialect: 'postgres',
-  protocol: 'postgres',
+  dialect: 'postgres', // Specify PostgreSQL as the database
   dialectOptions: {
     ssl: {
-      require: true,
+      require: true, // Enforce SSL for secure connection
       rejectUnauthorized: false,
     },
   },
-  logging: false,
+  logging: false, 
 });
 
-module.exports = sequelize;
+module.exports = sequelize; 

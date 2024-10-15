@@ -17,7 +17,7 @@ const Activity = sequelize.define('Activity', {
   },
 });
 
-// Relaciones
+// Relationships
 Activity.belongsTo(Schedule, { foreignKey: 'scheduleId' });
 Schedule.hasMany(Activity, { foreignKey: 'scheduleId' });
 
