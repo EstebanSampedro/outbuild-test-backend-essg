@@ -43,3 +43,46 @@ The goal of this project is to develop a scalable and secure API using Express a
    git clone https://github.com/yourusername/outbuild-test-backend-essg.git
    cd outbuild-test-backend-essg
    ```
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+3. **Create a .env file with (same as .env.example)**
+   ```bash
+   PORT=3000
+   DATABASE_URL=your_database_connection_string
+   ```
+4. **Start the App**
+   ```bash
+   npm start
+   ```
+
+## API Documentation
+Access Swagger UI for API docs and testing:
+
+```bash
+http://localhost:3000/api-docs
+```
+Endpoints include:
+- User Registration and Authentication
+- Schedule Management
+- Activity Management
+
+## Final Results and Testing
+### Swagger UI API-Docs
+![cap6](https://github.com/user-attachments/assets/19012c3c-ea03-4771-b38e-43a1e0a79a3c)
+
+### Schedule Creation
+![cap1](https://github.com/user-attachments/assets/0eb5db11-0239-49be-84b3-0065a7271dc3)
+
+### Activity Creation
+![cap2](https://github.com/user-attachments/assets/4b493a31-ded2-40b9-9b82-582b8a363134)
+
+### Multiple Activities Creation
+![cap3](https://github.com/user-attachments/assets/4fe6eea9-72c3-4464-9393-94fb2fec5ae6)
+
+### Get a Schedule with Activities
+![cap4](https://github.com/user-attachments/assets/70fd5776-a1a1-4118-9a2a-132bb637a7bd)
+
+
+
